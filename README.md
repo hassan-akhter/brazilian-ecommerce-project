@@ -8,8 +8,9 @@ A complete, production-style data engineering and analytics pipeline built on th
 | Layer | What I built | Tools |
 |---|---|---|
 | **Data Engineering** | ETL pipeline (extract → transform → load) | Python, pandas, PostgreSQL |
-| **Data Analysis** | 17 SQL queries + 13 visualizations | PostgreSQL, matplotlib, seaborn |
+| **Data Analysis** | 16 SQL queries + 13 visualizations | PostgreSQL, matplotlib, seaborn |
 
+This project simulates a real-world analytics workflow: raw CSV ingestion, data cleaning, referential integrity checks, database modeling, analytical SQL, and business insights.
 
 ## Project Structure
 
@@ -24,7 +25,7 @@ brazilian-ecommerce-project/
 │   └── schema.sql                   # PostgreSQL table definitions
 │
 ├── analysis/                        # Layer 2 — EDA & Visualizations
-│   ├── eda_export_queries.sql       # 17 analytical SQL queries
+│   ├── eda_export_queries.sql       # 16 analytical SQL queries
 │   ├── visualizations.py            # Generates 13 charts from query results
 │   ├── query_results/               # CSV exports from pgAdmin
 │   └── charts/                      # Generated PNG charts
