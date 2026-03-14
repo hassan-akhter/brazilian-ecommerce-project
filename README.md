@@ -1,4 +1,4 @@
-# Brazilian E-Commerce — End-to-End Data Project
+# Brazilian E-Commerce (End-to-End Data Project)
 
 A full data engineering & analytics portfolio project built on the [Olist Brazilian E-Commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), covering ETL pipeline, SQL analysis, and visualizations.
 
