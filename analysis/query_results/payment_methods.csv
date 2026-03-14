@@ -1,0 +1,5 @@
+"payment_type","total_orders","total_value","avg_installments","pct_share"
+"credit_card","76503","12541895.56","3.5","73.9"
+"boleto","19784","2869361.27","1.0","19.0"
+"voucher","3866","379436.87","1.0","5.6"
+"debit_card","1528","217989.79","1.0","1.5"
