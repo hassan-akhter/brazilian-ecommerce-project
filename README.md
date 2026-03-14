@@ -56,7 +56,6 @@ brazilian-ecommerce-project/
 | sellers | 3,095 | Seller location |
 | geolocation | 738,305 | Brazilian zip code coordinates |
 
----
 
 ## Layer 1: ETL Pipeline
 
@@ -103,20 +102,6 @@ order_payments → orders      orphans: 0
 order_reviews → orders       orphans: 0
 order_items → products       orphans: 0
 order_items → sellers        orphans: 0
-```
-
-### Database Views & Stored Procedures
-The schema includes 3 reusable views and 2 stored procedures:
-
-```sql
--- Views (ready to query)
-SELECT * FROM vw_monthly_revenue;
-SELECT * FROM vw_seller_performance ORDER BY revenue_rank;
-SELECT * FROM vw_delivery_by_state  ORDER BY pct_late DESC;
-
--- Stored Procedures
-CALL get_top_sellers(10);
-CALL get_customer_summary('customer-unique-id-here');
 ```
 
 ## Layer 2: SQL Analysis
@@ -173,7 +158,6 @@ python analysis/visualizations.py
 | matplotlib / seaborn | Data visualization |
 | python-dotenv | Secure credential management |
 
----
 
 ## Quick Start
 
@@ -201,6 +185,6 @@ python analysis/visualizations.py
 
 ## Author
 
-**Hassan** — Data Engineering Portfolio Project
+**Hassan**  -- Data Engineering Portfolio Project
 
 Dataset: Olist Brazilian E-Commerce Public Dataset (Kaggle)
