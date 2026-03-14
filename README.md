@@ -1,10 +1,8 @@
 # Brazilian E-Commerce — End-to-End Data Project
 
-A full data engineering & analytics portfolio project built on the [Olist Brazilian E-Commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — covering ETL pipeline, SQL analysis, and visualizations.
+A full data engineering & analytics portfolio project built on the [Olist Brazilian E-Commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), covering ETL pipeline, SQL analysis, and visualizations.
 
 ![Monthly Revenue](analysis/charts/01_monthly_revenue.png)
-
----
 
 ## Project Overview
 
@@ -13,7 +11,6 @@ A full data engineering & analytics portfolio project built on the [Olist Brazil
 | **Data Engineering** | ETL pipeline (extract → transform → load) | Python, pandas, PostgreSQL |
 | **Data Analysis** | 17 SQL queries + 13 visualizations | PostgreSQL, matplotlib, seaborn |
 
----
 
 ## Project Structure
 
@@ -41,8 +38,6 @@ brazilian-ecommerce-project/
 ├── .gitignore
 └── README.md
 ```
-
----
 
 ## Dataset
 
@@ -124,11 +119,9 @@ CALL get_top_sellers(10);
 CALL get_customer_summary('customer-unique-id-here');
 ```
 
----
-
 ## Layer 2: SQL Analysis
 
-17 analytical queries covering:
+16 analytical queries covering:
 
 - **Revenue trends:** monthly growth, cumulative revenue
 - **Customer behaviour:** segmentation, RFM scoring, spend distribution
@@ -169,8 +162,6 @@ python analysis/visualizations.py
 # → Saves 13 charts to analysis/charts/
 ```
 
----
-
 ## Tech Stack
 
 | Tool | Purpose |
@@ -207,7 +198,6 @@ python pipeline/pipeline.py
 python analysis/visualizations.py
 ```
 
----
 
 ## Author
 
